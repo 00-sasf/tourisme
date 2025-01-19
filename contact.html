@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">LogoA&A</a>
+       
+        <nav>
+            <ul>
+                <li><a href="index.html">-ACCUEIL-</a></li>
+                <li><a href="monument.html">-MONUMENT-</a></li>
+                <li><a href="contact.html">-CONTACT-</a></li>    
+            </ul>
+        </nav>
+    </header>
+    <div class="main">
+        <h1>Contactez-nous</h1>
+    </div>
+    
+    <main>
+        <section>
+            <h2>Formulaire de Contact</h2>
+            <p>Remplissez le formulaire ci-dessous pour nous contacter.</p>
+
+            <form action="submit_form.php" method="POST">
+                <div>
+                    <label for="prenom">Prénom:</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div>
+                    <label for="password">Mot de Passe:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <div>
+                    <label for="confirmer">Confirmer:</label>
+                    <button type="submit" id="confirmer">Confirmer</button>
+                </div>
+
+                <div>
+                    <label>
+                        <input type="checkbox" name="stay_connected"> Rester connecté
+                    </label>
+                </div>
+            </form>
+        </section>
+    </main>
+    <div class="Piedage">
+    
+        <p>&copy; 2025 Explore. Tous droits reserves| <a href="index.html">Retour à l'accueil</a></p>
+    </div>
+
+</body>
+</html>
